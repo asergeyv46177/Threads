@@ -58,8 +58,8 @@ int main(int argc, const char * argv[]) {
                     [condition unlock];
                 }
             }];
-            [thread start];
             
+            [thread start];
         }
         [condition wait];
         NSTimeInterval endTime = [NSDate new].timeIntervalSince1970;
