@@ -58,7 +58,6 @@ int main(int argc, const char * argv[]) {
                     [condition unlock];
                 }
             }];
-            
             [thread start];
         }
         [condition wait];
